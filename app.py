@@ -14,7 +14,7 @@ import os
 import streamlit as st
 from streamlit_chat import message
 
-huggingfacehub_api_token = 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
+huggingfacehub_api_token = enter your token here
 
 def initialize_session_state():
     if 'history' not in st.session_state:
