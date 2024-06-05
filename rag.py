@@ -52,7 +52,7 @@ def display_chat_history(chain):
 
 # Function to create conversational chain
 def create_conversational_chain(vector_store):
-    huggingfacehub_api_token = "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"
+    huggingfacehub_api_token = "enter your token"
 
     # Create llm
     llm = HuggingFaceHub(
